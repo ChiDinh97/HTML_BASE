@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Example 01</title>
+    <meta charset="UTF-8">
+    <title>Example 01</title>
+    <style type="text/css">
+
+    * {
+        margin: 0px;
+        padding: 0px;/*cach reset lai margin, padding cho tat ca cac the html*/
+    }
+
+    div{
+    	border: 3px solid #999;/*dinh dang o selector se manh hon dinh dang o phan **/
+    	padding: 5px;
+    }
+
+    .box{
+    	border: 2px solid red;
+    	width: 100%;
+    }
+
+	#box-id{
+		width: 600px;
+	}
+
+    </style>
 </head>
 <body>
-	
+	<div class="box" id="box-id" style="width: 900px;">Cau truc HTML tag</div>
 </body>
 </html>
