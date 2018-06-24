@@ -1,0 +1,12 @@
+.div{
+	border: 1px solid #000;
+	padding: 10px; /*khoang cach so voi cac duong vien*/
+	/*float: left;*/ /*chyen tu kieu block level sang kieu inline*/
+	display: inline;
+}
+
+.span{
+	border: 1px solid #000;
+	padding: 10px;
+	display: block;
+}
